@@ -1,0 +1,138 @@
+
+/* CSS reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+  margin:0;
+  padding:0;
+}
+html,body {
+  margin:0;
+  padding:0;
+}
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+fieldset,img {
+  border:0;
+}
+input{
+  border:1px solid #b0b0b0;
+  padding:3px 5px 4px;
+  color:#979797;
+  width:190px;
+}
+address,caption,cite,code,dfn,th,var {
+  font-style:normal;
+  font-weight:normal;
+}
+ol,ul {
+  list-style:none;
+}
+caption,th {
+  text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-size:100%;
+  font-weight:normal;
+}
+q:before,q:after {
+  content:'';
+}
+abbr,acronym { border:0;
+}
+/* Start my Code */
+body {
+  background-color: #ffffff;
+  padding: 20px 20px 20px 20px;
+}
+h1 {
+  margin: 0px 0 0px 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #000000;
+  font-size: 22px;
+  padding-bottom: 15px;
+  font-weight: bold;
+  
+}
+h2 {
+  margin: 0px 0 20px 0;
+  padding-left: 30px;
+	font-size: 18px;
+}
+h3 {
+  margin: 15px 0 15px 0;
+  padding-bottom: 3px;
+}
+.header {
+  padding: 15px;
+
+}
+.content {
+  background-color: ##f2e6ff;
+  color: #000000;
+  width: 800px;
+  padding-top: 20px;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  color: #000000;
+}
+.nav li {
+  display: inline;
+  margin: 20px 0 0px 0;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: #b30000;
+  font-size: 21px;
+  text-shadow: 0 1px 2px #000;
+}
+.nav {
+  border-bottom: 1px solid #CCCCCC;
+  padding-bottom: 10px;
+  box-shadow: 0 1px 0 #969c8a;
+}
+.content img {
+	padding-left: 25px;
+	padding-right: 15px;
+  border-radius: 50%;
+}
+.content h2 {
+	padding: 0;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-variant: small-caps;
+	margin: 0px 0 10px 0;
+  font-weight: bold;
+  color: #000000;
+}
+.skill-box {
+  padding: 10px;
+  border: 2px solid;
+  margin: 10px;
+  width: 100px;
+  text-align: center;
+  background-color: #5b2075;
+  display: inline-block;
+	/*Step 4: Fancy CSS3 Styles*/
+	border-radius: 50px;
+	text-shadow: 0 2px 2px rgba(255, 255, 255, 0.2);
+}
+.project-box {
+  padding: 10px;
+  color: white;
+  border: 2px solid;
+  margin: 10px;
+  width: 200px;
+  background-color: #c2c2c2;
+  display: inline-block;
+}
+.project-box h2{
+  padding: 0;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-variant: small-caps;
+  margin: 0px 0 10px 0;
+  font-weight: bold;
+  text-align: center;
+}
+.skill-box p {
+  color: white;
+}
