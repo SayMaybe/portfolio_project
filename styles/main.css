@@ -6,7 +6,7 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,
 }
 html,body {
   margin:0;
-  padding:0;
+  padding:100;
 }
 table {
   border-collapse:collapse;
@@ -47,17 +47,18 @@ body {
 }
 h1 {
   margin: 0px 0 0px 0;
-  font-family: 'Open Sans', sans-serif;
-  color: #000000;
-  font-size: 22px;
+  font-size: 20px;
   padding-bottom: 15px;
   font-weight: bold;
-  
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: #b30000;
+  text-shadow: 0 1px 2px #000;
+
 }
 h2 {
   margin: 0px 0 20px 0;
   padding-left: 30px;
-	font-size: 18px;
+	font-size: 16px;
 }
 h3 {
   margin: 15px 0 15px 0;
@@ -82,7 +83,7 @@ p {
   display: inline;
   margin: 20px 0 0px 0;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
-  color: #b30000;
+  color: #000cb3;
   font-size: 21px;
   text-shadow: 0 1px 2px #000;
 }
@@ -105,16 +106,16 @@ p {
   color: #000000;
 }
 .skill-box {
-  padding: 10px;
+  padding: 3px;
   border: 2px solid;
   margin: 10px;
   width: 100px;
   text-align: center;
-  background-color: #5b2075;
+  background-color: #b30000;
   display: inline-block;
 	/*Step 4: Fancy CSS3 Styles*/
-	border-radius: 50px;
-	text-shadow: 0 2px 2px rgba(255, 255, 255, 0.2);
+  border-radius: 50px;
+  text-shadow: 0 2px 2px #201f1f;
 }
 .project-box {
   padding: 10px;
